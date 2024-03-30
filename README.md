@@ -35,3 +35,15 @@ output[2] = -2.00 + -0.00i
 
 output[3] = -2.00 + -2.00i
 ```
+
+This saves a lot of adds. (Note that each add and multiply here is a complex (not real) operation.)
+If we use the following diagram for a complex multiply and add:
+
+![image](https://github.com/Mserhatarslan/fft/assets/63358327/f5b92ffb-1175-4993-bd28-26a9e0fd7a04)
+
+then we can diagram the 4-point DFT like so:
+
+![image](https://github.com/Mserhatarslan/fft/assets/63358327/1cacfa8c-1217-4790-8052-66c8c7053153)
+
+If we carry on to N = 8, N = 16, and other power-of-two discrete Fourier transforms,
+we get...
