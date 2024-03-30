@@ -17,9 +17,9 @@ I will share also Cooley Tukey 4-Radix FFT algorithm in this repository
 output[0] = 3.00 + 0.00i
 
 output[1] = -1.00 + -0.00i
+```
 
 ## 4 Point FFT 
-```
 
 ![image](https://github.com/Mserhatarslan/fft/assets/63358327/0e70eff3-1be2-4114-ac84-9e34134e500d)
 
