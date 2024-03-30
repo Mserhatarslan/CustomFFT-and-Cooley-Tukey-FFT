@@ -11,12 +11,15 @@ I will share also Cooley Tukey 4-Radix FFT algorithm in this repository
 
 ![image](https://github.com/Mserhatarslan/fft/assets/63358327/509a6981-8f53-4f5e-953e-ccc95e41db6b)
 ```
+fft_input array: 
+
+          const cplx fft_in[FFT_SIZE] = { 1.0 + 0.0 * I, 2.0 + 0.0 * I};
 
 FFT Results:
  
-output[0] = 3.00 + 0.00i
+          output[0] = 3.00 + 0.00i
 
-output[1] = -1.00 + -0.00i
+          output[1] = -1.00 + -0.00i
 ```
 
 ## 4 Point FFT 
@@ -24,16 +27,19 @@ output[1] = -1.00 + -0.00i
 ![image](https://github.com/Mserhatarslan/fft/assets/63358327/0e70eff3-1be2-4114-ac84-9e34134e500d)
 
 ```
+fft_input array: 
+
+          const cplx fft_in[FFT_SIZE] = { 1.0 + 0.0 * I, 2.0 + 0.0 * I, 3.0 + 0.0 * I, 4.0 + 0.0 * I};
 
 FFT Results:
 
-output[0] = 10.00 + 0.00i
-
-output[1] = -2.00 + 2.00i
-
-output[2] = -2.00 + -0.00i
-
-output[3] = -2.00 + -2.00i
+          output[0] = 10.00 + 0.00i
+          
+          output[1] = -2.00 + 2.00i
+          
+          output[2] = -2.00 + -0.00i
+          
+          output[3] = -2.00 + -2.00i
 ```
 
 This saves a lot of adds. (Note that each add and multiply here is a complex (not real) operation.)
