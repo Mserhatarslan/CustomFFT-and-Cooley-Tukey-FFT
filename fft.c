@@ -39,15 +39,16 @@ int main(void)
     double cpu_time_used;
 
     cplx fft_out[FFT_SIZE]; 
-      start = clock(); // Başlangıç zamanını kaydet
+    start = clock(); // Başlangıç zamanını kaydet
     performFFT(fft_in, fft_out); 
-     end = clock(); // Bitiş zamanını kaydet
+    end = clock(); // Bitiş zamanını kaydet
 
     printf(" FFT Results:\n");
     
     for (int i = 0; i < FFT_SIZE; i++) {
         printf("output[%d] = %.2lf + %.2lfi\n", i, creal(fft_out[i]), cimag(fft_out[i]));
     }
+    
     cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
     printf("Execution time = %lf seconds\n", cpu_time_used); // İşlem süresini hesapla ve yazdır
     return 0; 
