@@ -57,17 +57,25 @@ we get...
 Comparison between Custom FFT and Cooley Tukey FFT
 
 N = 8192 FFT SIZE 
+
 Cooley Tukey = 0.008748 seconds
+
 Custom FFT =   3.195926 seconds
 
 N = 8192 FFT SIZE 
+
 Cooley Tukey = Execution time = 0.011058 seconds
+
 Custom FFT = Execution time = 53.008854 seconds
 
 N = 8192 FFT SIZE 
+
 Cooley Tukey = Execution time = 0.029321 seconds
+
 Custom FFT = Execution time = 210.001965 seconds
 
 N = 131072 FFT SIZE 
+
 Execution time = 0.124470 seconds
+
 Execution time = 942.397679 seconds
