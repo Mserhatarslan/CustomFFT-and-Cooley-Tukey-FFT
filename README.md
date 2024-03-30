@@ -12,7 +12,7 @@ I will share also Cooley Tukey 4-Radix FFT algorithm in this repository
 ![image](https://github.com/Mserhatarslan/fft/assets/63358327/509a6981-8f53-4f5e-953e-ccc95e41db6b)
 ```
 
- FFT Results:
+FFT Results:
  
 output[0] = 3.00 + 0.00i
 
