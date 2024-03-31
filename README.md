@@ -63,14 +63,14 @@ Cooley Tukey Execution time = 0.008748 seconds
 Custom FFT Execution time = 3.195926 seconds
 ```
 
-N = 8192 FFT SIZE 
+N = 32768 FFT SIZE 
 ```
 Cooley Tukey Execution time = 0.011058 seconds
 
 Custom FFT Execution time = 53.008854 seconds
 ```
 
-N = 8192 FFT SIZE 
+N = 65536 FFT SIZE 
 ```
 Cooley Tukey Execution time = 0.029321 seconds
 
