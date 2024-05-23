@@ -10,7 +10,7 @@ I will share also Cooley Tukey 4-Radix FFT algorithm in this repository
 ## 2 Point FFT 
 
 ![image](https://github.com/Mserhatarslan/fft/assets/63358327/509a6981-8f53-4f5e-953e-ccc95e41db6b)
-```
+```c++
 fft_input array: 
 
           const cplx fft_in[FFT_SIZE] = { 1.0 + 0.0 * I, 2.0 + 0.0 * I};
@@ -26,7 +26,7 @@ FFT Results:
 
 ![image](https://github.com/Mserhatarslan/fft/assets/63358327/0e70eff3-1be2-4114-ac84-9e34134e500d)
 
-```
+```c++
 fft_input array: 
 
           const cplx fft_in[FFT_SIZE] = { 1.0 + 0.0 * I, 2.0 + 0.0 * I, 3.0 + 0.0 * I, 4.0 + 0.0 * I};
@@ -57,28 +57,28 @@ we get...
 Comparison between Custom FFT and Cooley Tukey FFT
 
 N = 8192 FFT SIZE 
-```
+```c++
 Cooley Tukey Execution time = 0.008748 seconds
 
 Custom FFT Execution time = 3.195926 seconds
 ```
 
 N = 32768 FFT SIZE 
-```
+```c++
 Cooley Tukey Execution time = 0.011058 seconds
 
 Custom FFT Execution time = 53.008854 seconds
 ```
 
 N = 65536 FFT SIZE 
-```
+```c++
 Cooley Tukey Execution time = 0.029321 seconds
 
 Custom FFT Execution time = 210.001965 seconds
 ```
 
 N = 131072 FFT SIZE 
-```
+```c++
 Cooley Tukey Execution time = 0.124470 seconds
 
 Custom FFT Execution time = 942.397679 seconds
